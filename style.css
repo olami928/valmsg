@@ -9,7 +9,7 @@ body {
 
 .container {
     text-align: center;
-    background-image: url('valimg.jpg'); /* Replace with your background image URL */
+    background-image: url('valimg.jpeg'); /* Replace with your background image URL */
     background-size: cover;
     padding: 20px;
     border-radius: 10px;
