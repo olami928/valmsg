@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const noBtn = document.getElementById('noBtn');
 
     yesBtn.addEventListener('click', () => {
-        window.location.href = 'loving-video.html';
+        window.location.href = 'val-happy.html';
     });
 
     noBtn.addEventListener('click', () => {
-        window.location.href = 'sad-video.html';
+        window.location.href = 'val_sad.html';
     });
 });
