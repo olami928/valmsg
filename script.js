@@ -3,10 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const noBtn = document.getElementById('noBtn');
 
     yesBtn.addEventListener('click', () => {
-        window.location.href = 'val-happy.html';
+        redirectToVideo('lval-happy.html');
     });
 
     noBtn.addEventListener('click', () => {
-        window.location.href = 'val_sad.html';
+        redirectToVideo('val_sad.html');
     });
+
+    function redirectToVideo(videoPage) {
+        window.location.href = videoPage;
+    }
 });
