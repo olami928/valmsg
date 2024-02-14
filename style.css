@@ -5,6 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f8f8f8;
+    background-image: url('valimg.jpeg'); 
 }
 
 .container {
@@ -31,6 +32,7 @@ h1, p {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    align: center;
 }
 
 .btn:hover {
